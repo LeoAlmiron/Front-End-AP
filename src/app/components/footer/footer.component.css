@@ -1,0 +1,19 @@
+.row{
+   --bs-gutter-x: 0rem;
+  
+}
+
+#Footer{
+display: flex;
+
+font-size: 17px;
+
+flex-direction: column;
+text-align: center;
+
+  
+}
+
+*{
+   background-color: #020111;
+}

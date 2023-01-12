@@ -1,0 +1,15 @@
+.gradient-custom {
+background-image: url(../../../assets/thumb-1920-1156488.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+ 
+    }
+
+    h2{
+        color: white
+    }
+
+    span{
+        color : #FFCA2C ;
+    }

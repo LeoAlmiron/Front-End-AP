@@ -1,0 +1,87 @@
+button{
+   margin-left: 8.6px;
+}
+
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #020111;
+}
+.header{
+      
+    width: 100%;
+}
+
+.icon{
+    width: 60px;
+    
+}
+.btn-outline-light {
+    letter-spacing: 0.05em;
+  }
+
+.nav-link{color: gray!important;}
+.navbar-brand{color: white!important;}
+
+.center{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+
+.typing{
+    color: white;
+    
+    text-align: center;
+    align-items: center;
+
+}
+.typeo{
+    position: absolute;
+    
+    right: 460px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    transition: all 0.3s linear;
+}
+
+
+.instagram{
+    width: 60px;
+
+}
+.instagram:hover{
+    transform: scale(1.2);
+    transition: all 0.3s linear;
+}
+
+
+
+
+
+@media screen and (max-width:990px){
+    .typeo{
+        visibility:hidden;
+    }
+}
+
+@media screen and (max-width:990px){
+    .navbar-nav{
+        position:relative ;
+        margin-right: 25%;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:990px){
+    
+    .btn-outline-light{
+        position: absolute;
+        margin-bottom: -25%;
+           letter-spacing: none;
+    }
+}
