@@ -77,11 +77,36 @@ button{
     }
 }
 
-@media screen and (max-width:990px){
-    
-    .btn-outline-light{
-        position: absolute;
-        margin-bottom: -25%;
-           letter-spacing: none;
+
+
+@media(max-width:575px){
+    .icon{
+        width: 60px;
+        right: 4px;
+        position: relative;
+        left: 75%;
     }
-}
+    }
+
+    @media(max-width:575px){
+        .t2{
+            left: 80%;
+        }
+        }
+
+        @media(max-width:575px){
+            .t3{
+                position: absolute;
+                left: -5%;
+            }
+            }
+
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+  
+                .bt{
+                    margin-bottom: 150%;
+                }
+                
+              }
+              

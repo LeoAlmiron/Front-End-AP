@@ -11,6 +11,11 @@
 *{
     background-color: #020111;
 }
-
+@media(max-width:575px){
+    .parallax{
+   background-size: 100% 100%;
+   min-height: 590px;
+    }
+    }
 
 

@@ -10,5 +10,5 @@ export const environment = {
     measurementId: 'G-CMD7EW58VR',
   },
   production: true,
-  URL: 'https://backendargentinaap.herokuapp.com/'
+  URL: 'https://backendleandroalmiron.onrender.com/'
 };

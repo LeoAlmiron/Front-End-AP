@@ -159,4 +159,31 @@ button{
         margin-left: -3%;
       }
 
-      
+      @media(max-width:575px){
+        .bt{
+          margin-left: 55%;
+        }
+        }
+
+        @media(max-width:575px){
+          #NombreApellido{
+         text-align: center;
+          }
+          }
+
+
+          @media (min-width: 768px) and (max-width: 1024px) {
+  
+            .btn{
+              left: 700px;
+            }
+            
+          }
+
+          @media (min-width: 768px) and (max-width: 1024px) {
+  
+            .profilepic__content{
+              left: 700px;
+            }
+            
+          }
