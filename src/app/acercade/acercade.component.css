@@ -180,10 +180,19 @@ button{
             
           }
 
-          @media (min-width: 768px) and (max-width: 1024px) {
+          @media (min-width: 768px) and (max-width: 1020px) {
   
-            .profilepic__content{
-              left: 700px;
+            #NombreApellido{
+              position: relative;
+              left: 14%;
+            }
+            
+          }
+
+          @media (min-width: 768px) and (max-width: 1020px) {
+  
+            .acer{
+              text-align: left;
             }
             
           }
